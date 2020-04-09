@@ -92,6 +92,7 @@ def main(start_url):
 
 
 if __name__ == "__main__":
-    request_url = r"https://crt.sh/?q=wakacje.pl&output=json"
+    domain_name = "example.com"
+    request_url = f"https://crt.sh/?q={domain_name}&output=json"
     main(request_url)
     sys.exit(0)
